@@ -1,10 +1,19 @@
 .carrusel{
-    width: 100vw;
-    height: 90vh;
-    background-color: red;
+    width: 100%;
+    height: 93vh;
     background: fixed;
 }
-img{
+.carrusel img{
     width: 100vw;
-    height: 90vh;
+    height: 93vh;
+    filter: brightness(0.8);
+}
+
+@media (max-width: 600px) {
+    .carrusel{
+        height: 90vh;
+    }
+    .carrusel img{
+        height: 90vh;
+    }
 }

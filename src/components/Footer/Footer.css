@@ -1,0 +1,40 @@
+footer{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+footer img{
+    height: 25px;
+    width: 25px;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+}
+#foto-logo{
+    height: 50px;
+    width: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media (max-width: 400px) {
+    #foto-logo{
+        display: none;
+    }
+    footer img{
+        height: 20px;
+        width: 20px;
+    }
+    footer p{
+        size: 1em;
+    }
+}

@@ -1,0 +1,28 @@
+.pantallaContacto{
+    margin: 0;
+    padding: 20px;
+    height: 110vh;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.contacto .texto{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+}
+.contacto .texto iframe{
+    max-width: 90%;
+    height: 150px;
+}    
+.contacto .texto p{
+    margin: 0;
+}
+.redes-sociales img{
+    height: 25px;
+}
+
+

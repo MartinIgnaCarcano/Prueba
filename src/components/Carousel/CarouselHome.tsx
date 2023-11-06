@@ -4,29 +4,24 @@ import './CarouselHome.css';
 const CarouselHome = () => {
     return (
         <Carousel className="carrusel">
-            <Carousel.Item interval={1000} className="item">
-                <img src="/images/hero.jpeg" alt="" />
+            <Carousel.Item interval={5000} className="item">
+                <img src="/images/budines.jpeg" alt="" />
                 <Carousel.Caption className="texto">
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Los productos para celiacos más ricos del país</h3>
                 </Carousel.Caption>
             </Carousel.Item>
 
-            <Carousel.Item interval={500} className="item">
-                <img src="/images/milanesas.jpeg" alt="" />
+            <Carousel.Item interval={5000} className="item">
+                <img src="/images/lemonPie.jpeg" alt="" />
                 <Carousel.Caption className="texto">
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Panadería, repostería, congelados y más</h3>
                 </Carousel.Caption>
             </Carousel.Item>
-            
-            <Carousel.Item className="item">
-                <img src="/images/tartin de dulce de leche.jpeg" alt="" />
+
+            <Carousel.Item interval={5000} className="item">
+                <img src="/images/milanesas.jpeg" alt="" />
                 <Carousel.Caption className="texto">
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <h3>TODO sin T.A.C.C.</h3>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
